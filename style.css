@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(fdates.jpg);
+    background-size: cover;
+}
+
+.item-container {
+    background-color: whitesmoke;
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left-logo {
+    width: 60px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variation-settings:
+        'FILL'1,
+        'wght'700,
+        'GRAD'200,
+        'opsz'48;
+}
+
+.top-left-logo:hover {
+    color: rgb(255, 0, 0);
+}
+
+.top-right-cart {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+.top-right-cart:hover {
+    color: rgb(255, 0, 0);
+}
+
+.main-item {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-heading {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 0, 0);
+}
+
+.item-description {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    margin: .5rem 0;
+    font-size: .9rem;
+    font-weight: 200;
+    font-weight: bold;
+}
+
+.item-price {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item-price sub {
+    color: rgb(24, 202, 83);
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin-bottom: 1rem;
+    font-variation-settings:
+        'FILL'1,
+        'wght'700,
+        'GRAD'200,
+        'opsz'48
+}
+
+#star1:hover {
+    color: gold;
+    transition:0.5s;
+    transform: rotate(180deg) translate(4%, 0);
+}
+
+#star2:hover {
+    color: gold;
+    transition:0.5s;
+    transform: rotate(180deg) translate(4%, 0);
+}
+
+#star3:hover {
+    color: gold;
+    transition:0.5s;
+    transform: rotate(180deg) translate(4%, 0);
+}
+
+#star4:hover {
+    color: gold;
+    transition:0.5s;
+    transform: rotate(180deg) translate(4%, 0);
+}
+
+#star5:hover {
+    color: gold;
+    transition:0.5s;
+    transform: rotate(180deg) translate(4%, 0);
+}
+
+.item-cart-btn {
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.item-cart-btn:hover {
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+}
